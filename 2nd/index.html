@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>HTML FORM</h2>
+    <form action="Post">
+        <div>
+            <span><label for="name">Name:</label></span> 
+             <input type="text" name="MyName" id="name">
+         </div>
+         <br>
+         <div>
+             <span><label for="email">Email:</label></span>
+             <input type="email" name="MyEmail" id="email">
+         </div>
+         <br>
+         <div>
+             <span><label for="mobile">Mobile Number:</label></span>
+             <select name="country code">
+                <option value="+91">+91</option>
+                <option value="+1">+1</option>
+                <option value="+7">+7</option>
+                <option value="+92">+92</option>
+                <option value="+86">+86</option>
+                <option value="+81">+81</option>
+             </select>
+             <input type="tel" name="My Mobile Number" id="mobile">
+         </div>
+         <br>
+         <div>
+             <span><label for="experience">Experience:</label></span>
+             <input type="number" name="MyExperience" id="experience">
+         </div>
+         <br>
+         <div>
+            <span><label for="password">Password</label></span>
+            <input type="password" name="MyPassword" id="password">
+         </div>
+         <br>
+         <div>
+             <span><label for="role">Role:</label></span>
+             <select name="MyRole" id="role">
+                <option value="Software Developer">Software Developer</option>
+                <option value="Sale Excuate">Sale Excuate</option>
+                <option value="Full Stack">Full Stack</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+             </select>
+         </div>
+         <br>
+         <div>
+             <span><label for="dob">Date of Birth:</label></span>
+             <input type="date" name="dob" id="dob">
+         </div>
+         <br>
+         <div>
+             Gender:
+             <span><label for="male" >Male</label></span>
+             <input type="radio" name="MyGender" id="male">
+             <span><label for="female" >Female</label></span>
+             <input type="radio" name="MyGender" id="female">
+             <span><label for="other" >Other</label></span>
+             <input type="radio" name="MyGender" id="other">
+         </div>
+         <br>
+         <div>
+             <span><label for="agree">I Argee:</label></span>
+             <input type="checkbox" id="agree">
+         </div>
+         <br>
+         <div>
+             <span><label for="about">Write About yours self:</label></span>
+             <textarea name="about" id="about" cols="30" rows="10" ></textarea>
+         </div>
+         <br>
+         <div>
+            <span><label for="file">Resume:</label></span>
+            <input type="file" name="MyFile" id="file">
+         </div>
+         <br>
+         <div>
+             <input type="submit" value="Submit Now">
+             <input type="reset" value="Reset Now">
+         </div>
+    </form>
+    
+</body>
+</html>
