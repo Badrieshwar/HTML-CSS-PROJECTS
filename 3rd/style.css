@@ -1,0 +1,46 @@
+html,
+boby{
+    height: 100%;
+    margin: 0;
+    font-size: 27px;
+    font-weight: 400;
+}
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4{
+    background-image: url("img.png");
+    min-height:700px;
+    /* create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sect1{
+    position: absolute;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+.text1{
+    background-color: #313534;
+    color:white;
+    padding: 10px 10px 10px 10px;
+}
+.section{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
